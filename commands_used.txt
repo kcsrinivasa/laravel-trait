@@ -1,0 +1,19 @@
+--This project is focused on laravel traits--
+
+
+---To create a project---
+composer create-project laravel/laravel trait
+
+---To open project in browser---
+php artisan serve
+
+---open in browser---
+http://localhost:8000
+
+--create controller and model--
+php artisan make:controller UserController -mUser
+php artisan make:model Post -mc
+
+--create request class--
+php artisan make:request UserRequest
+php artisan make:request PostRequest
